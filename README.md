@@ -36,7 +36,7 @@ https://developers.google.com/maps/documentation/geocoding/intro
 and put the API key in the code.
 Here is a sample run after there is already some data in the database:
 
-```Shell
+```Python
 Mac: python3 geoload.py
 
 Found in database  Northeastern University
@@ -72,7 +72,7 @@ This program reads the database and writes tile file `where.js` with the locatio
 
 A run of the `geodump.py` program is as follows:
 
-```
+```Python console
 Mac: python3 geodump.py
 
 Northeastern University, 360 Huntington Avenue, Boston, MA 02115, USA 42.3396998 -71.08975
@@ -86,16 +86,18 @@ Kokshetau, Kazakhstan 53.2833333 69.3833333
 Open where.html to view the data in a browser
 ```
 
-The file (where.html) consists of HTML and JavaScript to visualize a Google Map.  
-It reads the most recent data in where.js to get the data to be visualized.  
-Here is the format of the where.js file:
+The file `where.html` consists of HTML and JavaScript to visualize a Google Map.  
+It reads the most recent data in `where.js` to get the data to be visualized.  
+Here is the format of the `where.js` file:
 
-`myData = [
+```JavaScript
+myData = [
 [42.3396998,-71.08975, 'Northeastern University, 360 Huntington Avenue, Boston, MA 02115, USA'],
 [40.6963857,-89.6160811, 'Bradley University, 1501 West Bradley Avenue, Peoria, IL 61625, USA'],
 [32.7775,35.0216667, 'Technion, Viazman 87, Kesalsaba, 32000, Israel'],
    ...
-];`
+];
+```
 
 This is a JavaScript list of lists.  
 
