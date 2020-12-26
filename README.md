@@ -3,13 +3,13 @@ Using the **Google Places API** with a **Database** and **Visualizing Data** on 
 
 Based on the assignment of [Dr. Chuck (Charles Severance)](https://www.dr-chuck.com/) for [Using Databases with Python](https://www.coursera.org/learn/python-databases).
 
-In this project, we are using the **Google geocoding API** to clean up some user-entered geographic locations :earth_americas: of university names and then placing the data on a Google Map.
+In this project, we are using the **Google geocoding API** to clean up some user-entered geographic locations of university names and then placing the data on a Google Map :earth_americas:.
 
 You should install the SQLite browser to view and modify the databases from:
 
 http://sqlitebrowser.org/
 
-The first problem to solve is that the Google geocoding API is rate limited to a fixed number of requests per day.
+The first problem to solve is that the Google geocoding API is rate limited to a fixed number of requests per day. 
 So if you have a lot of data you might need to stop and restart the lookup process several times.  
 So we break the problem into two phases.
 
