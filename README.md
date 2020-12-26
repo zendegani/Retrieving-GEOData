@@ -9,7 +9,7 @@ You should install the SQLite browser to view and modify the databases from:
 
 http://sqlitebrowser.org/
 
-The first problem to solve is that the Google geocoding API is rate limited to a fixed number of requests per day. 
+The first problem to solve is that the Google geocoding API is rate limited to a fixed number of requests per day.  
 So if you have a lot of data you might need to stop and restart the lookup process several times.  
 So we break the problem into two phases.
 
