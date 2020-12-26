@@ -36,7 +36,7 @@ https://developers.google.com/maps/documentation/geocoding/intro
 and put the API key in the code.
 Here is a sample run after there is already some data in the database:
 
-```Python 
+```Shell 
 Mac: python3 geoload.py
 
 Found in database  Northeastern University
@@ -62,7 +62,33 @@ Retrieved 1749 characters {    "results" : [
 {u'status': u'OK', u'results': ... }
 ```
 
-```Python console
+```ShellSession
+Mac: python3 geoload.py
+
+Found in database  Northeastern University
+
+Found in database  University of Hong Kong, Illinois Institute of Technology, Bradley University
+
+Found in database  Technion
+
+Found in database  Viswakarma Institute, Pune, India
+
+Found in database  UMD
+
+Found in database  Tufts University
+
+Resolving Monash University
+Retrieving http://py4e-data.dr-chuck.net/json?key=42&address=Monash+University
+Retrieved 2063 characters {    "results" : [
+{u'status': u'OK', u'results': ... }
+
+Resolving Kokshetau Institute of Economics and Management
+Retrieving http://py4e-data.dr-chuck.net/json?key=42&address=Kokshetau+Institute+of+Economics+and+Management
+Retrieved 1749 characters {    "results" : [
+{u'status': u'OK', u'results': ... }
+```
+
+```PowerShell
 Mac: python3 geoload.py
 
 Found in database  Northeastern University
