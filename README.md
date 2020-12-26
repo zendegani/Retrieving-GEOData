@@ -1,9 +1,9 @@
 # Retrieving-GEOData
-Using the Google Places API with a Database and Visualizing Data on Google Map.
+Using the **Google Places API** with a **Database** and **Visualizing Data** on **Google Map**.
 
 Based on the assignment of [Dr. Chuck (Charles Severance)](https://www.dr-chuck.com/) for [Using Databases with Python](https://www.coursera.org/learn/python-databases).
 
-In this project, we are using the **Google geocoding API** to clean up some user-entered geographic locations of university names and then placing the data on a Google Map.
+In this project, we are using the **Google geocoding API** to clean up some user-entered geographic locations :earth_americas: of university names and then placing the data on a Google Map.
 
 You should install the SQLite browser to view and modify the databases from:
 
