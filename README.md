@@ -98,9 +98,8 @@ myData = [
    ...
 ];
 ```
-
 This is a JavaScript list of lists.  
 
-Simply open where.html in a browser to see the locations.  
+Simply open `where.html` in a browser to see the locations.  
 You can hover over each map pin to find the location that the gecoding API returned for the user-entered input.  
 If you cannot see any data when you open the where.html file, you might want to check the JavaScript or developer console for your browser.
