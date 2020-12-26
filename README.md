@@ -38,7 +38,8 @@ https://developers.google.com/maps/documentation/geocoding/intro
 and put the API key in the code.
 Here is a sample run after there is already some data in the database:
 
-`Mac: python3 geoload.py
+```Shell
+Mac: python3 geoload.py
 
 Found in database  Northeastern University
 
@@ -60,7 +61,8 @@ Retrieved 2063 characters {    "results" : [
 Resolving Kokshetau Institute of Economics and Management
 Retrieving http://py4e-data.dr-chuck.net/json?key=42&address=Kokshetau+Institute+of+Economics+and+Management
 Retrieved 1749 characters {    "results" : [
-{u'status': u'OK', u'results': ... }`
+{u'status': u'OK', u'results': ... }
+```
 
 The first five locations are already in the database and so they are skipped.  
 The program scans to the point where it finds un-retrieved locations and starts retrieving them.
